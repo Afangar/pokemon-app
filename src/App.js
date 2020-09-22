@@ -7,7 +7,9 @@ import {
 
 const App = () => (
   <Router>
-    <Switch />
+    <Switch>
+      <Route path="/asdasd" />
+    </Switch>
   </Router>
 );
 
