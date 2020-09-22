@@ -7,9 +7,7 @@ import {
 
 const App = () => (
   <Router>
-    <Switch>
-      <Route path="/" />
-    </Switch>
+    <Switch />
   </Router>
 );
 
