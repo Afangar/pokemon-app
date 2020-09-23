@@ -6,9 +6,13 @@ const App = () => (
   <Router>
     <Switch>
       <Route exact path="/" />
+<<<<<<< HEAD
       <Route path="/pokemons/:id">
         <PokemonsDetails />
       </Route>
+=======
+      
+>>>>>>> 35a15ef... crear home
     </Switch>
   </Router>
 );
