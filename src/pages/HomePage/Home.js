@@ -1,9 +1,10 @@
 import React from "react";
 import Form from "../componentes/form";
+import Carrusel from "../componentes/carrusel";
 
 const Home = () => (
   <section>
-    <h1>Home</h1>
+    <Carrusel />
     <Form />
   </section>
 );
