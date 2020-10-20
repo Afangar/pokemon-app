@@ -1,0 +1,10 @@
+.carousel.carousel-slider {
+  height: 700px;
+}
+.carousel .slide,
+.carousel .slide > div {
+  height: 700px;
+}
+.carousel .slide img {
+  height: inherit;
+}
