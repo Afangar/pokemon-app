@@ -1,0 +1,85 @@
+.homecards {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 6rem;
+  p {
+    text-align: justify;
+  }
+  .divprimero {
+    display: flex;
+    margin-bottom: 30px;
+    img {
+      max-width: 100%;
+    }
+    .sandiasque,
+    .first {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      border: solid #363b81 5px;
+      background-color: #dcdcdc;
+    }
+    .sandiasque {
+      width: 40%;
+    }
+    .first {
+      width: 50%;
+    }
+    $breakpoint-tablet: 768px;
+    @media (max-width: $breakpoint-tablet) {
+      .sandiasque,
+      .first {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+        margin-right: 0;
+      }
+    }
+  }
+  $breakpoint-tablet: 768px;
+  @media (max-width: $breakpoint-tablet) {
+    .divprimero {
+      flex-wrap: wrap;
+    }
+  }
+  .divsegundo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+      height: 40%;
+      margin-top: 30px;
+    }
+    .bulba,
+    .squir,
+    .charma {
+      box-sizing: border-box;
+      justify-content: center;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      border-radius: 0.5rem;
+      width: 300px;
+      background-color: #dcdcdc;
+    }
+    .bulba {
+      border: solid #68ae28 5px;
+    }
+    .squir {
+      border: solid #84cabf 5px;
+    }
+    .charma {
+      border: solid #ef8200 5px;
+    }
+    $breakpoint-tablet: 768px;
+    @media (max-width: $breakpoint-tablet) {
+      .bulba,
+      .squir,
+      .charma {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
