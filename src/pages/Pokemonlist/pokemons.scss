@@ -1,0 +1,47 @@
+.api {
+  background-image: url(/images/fondopokemon.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 6rem;
+  .titulo {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+  .ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .lista {
+      text-align: initial;
+      padding: 2rem;
+      font-size: 3rem;
+      font-style: italic;
+      line-height: 2.5rem;
+      list-style-position: inside;
+      list-style: none;
+    }
+  }
+  .paginador,
+  .vista {
+    display: flex;
+    justify-content: center;
+  }
+  .boton {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    background-color: rgb(26, 188, 156);
+    border: rgb(26, 188, 156);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    margin: 20px;
+  }
+  .boton:hover {
+    background-color: white;
+    color: black;
+  }
+}
